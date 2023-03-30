@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rajdhani:wght@500;600&display=swap');
+
+/*--General--*/
+
+html {
+    font:500 1em 'Rajdhani', sans-serif;
+}
+
+body {
+    margin:0;
+}
+
+li, h2, h3 {
+    font-family: 'Press Start 2P', cursive;
+}
+
+img {
+    max-width:100%;
+    height:auto;
+}
+
+/*--Header--*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.56rem 1.56rem;
+    background-color: #FFEBFA;
+}
+
+h2{
+    margin:0;
+}
+
+#sitename {
+    font-size:3em;
+
+}
+
+#sitename a {
+    text-decoration:none;
+    color:black;
+}
+
+.nav {
+    display:flex;
+    list-style-type: none;
+    font-size: 1.25em;
+    gap: 1.68rem;
+    margin: 0;
+    padding:0;
+}
+
+.nav a{
+    text-decoration: none;
+    color:black;
+}
+
+#sitename a:hover {
+    color:#A88488;
+}
+
+.nav a:hover {
+    color:#A88488;
+}
+
+
+/*--Banner--*/
+.bannerContainer {
+    display:flex;
+    font-size:4em;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+    padding: 7.98rem;
+    background-color: #FFEBFA;
+    background-image:url("/image/YW.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+
+
+/*--Project Common--*/
+.hproject {
+    padding: 0.75rem 1.56rem;
+    background-color: #FFEBFA;
+    font-size: 2rem;
+}
+
+.projectcontainer {
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:center;
+
+}
+
+.projectchild {
+    flex-basis: 50%;
+    height: 28.875rem;
+}
+
+.projectcontainer img {
+    display: block;
+
+}
+
+/*--Project 1 --*/
+.projectheading{
+    padding: 2.3125rem 0 2.25rem 3.5rem;
+    font-size:1.25em;
+
+}
+
+.projectheading a{
+    text-decoration: none;
+    color:black;
+}
+
+.project1 {
+    margin:0;
+
+}
+
+.project1 a:hover{
+    color: #FFEBFA;
+}
+
+
+.p1ConInfo {
+    background-color: #CCBCC8;
+    
+}
+
+.p1Link {
+    background-color: #998D96;
+
+}
+
+.projectchild img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.subtitle {
+    margin:0;
+    font:600 1em 'Rajdhani', sans-serif;
+    padding: 0 0 0 3.5rem;
+}
+
+.projectdetail {
+    margin:0;
+    padding: 0 0 0 3.5rem;
+}
