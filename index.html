@@ -40,9 +40,11 @@
                         swarming around the tree. To make the gameplay more challenging, the Queen bee has been programmed 
                         to flee from the Drone bee when they get too close, adding an extra layer of difficulty to the task at hand.
                     </p>
-                    <p>HTML</p>
-                    <P>CSS</P>
-                    <P>JAVASCRIPT</P>
+                    <div class="projecttag">
+                        <p class="tag p1tag">HTML</p>
+                        <P class="tag p1tag">CSS</P>
+                        <P class="tag p1tag">JAVASCRIPT</P>
+                    </div>
                 </div>
                 <div class="projectchild p1Link">
                     <a href="https://yujiawang6.github.io/humbergamejam/"><img src="image/IMG_1309.PNG" alt="photo of project Fly bugs around the tree" width="526"></a>
@@ -53,9 +55,11 @@
                     <h3 class="projectheading project2"><a href="#">Other project (ongoing)</a></h3>
                     <h4 class="subtitle">Project Overview</h4>
                     <p class="projectdetail">Detail ongoing...</p>
-                    <p>HTML</p>
-                    <P>CSS</P>
-                    <P>JAVASCRIPT</P>
+                    <div class="projecttag">
+                        <p class="tag p2tag">HTML</p>
+                        <P class="tag p2tag">CSS</P>
+                        <P class="tag p2tag">JAVASCRIPT</P>
+                    </div>
                 </div>
                 <div class="projectchild p2Link">
                     <a href="#"><img src="image/ongoingproject.png" alt="photo of ongoing project 2"></a>
@@ -66,9 +70,11 @@
                     <h3 class="projectheading project3"><a href="#">Other project (ongoing)</a></h3>
                     <h4 class="subtitle">Project Overview</h4>
                     <p class="projectdetail">Detail ongoing...</p>
-                    <p>HTML</p>
-                    <P>CSS</P>
-                    <P>JAVASCRIPT</P>
+                    <div class="projecttag">
+                        <p class="tag p3tag">HTML</p>
+                        <P class="tag p3tag">CSS</P>
+                        <P class="tag p3tag">JAVASCRIPT</P>
+                    </div>
                 </div>
                 <div class="projectchild p3Link">
                     <a href="#"><img src="image/ongoingproject.png" alt="photo of ongoing project 3"></a>
@@ -79,52 +85,70 @@
                     <h3 class="projectheading project4"><a href="#">Other project (ongoing)</a></h3>
                     <h4 class="subtitle">Project Overview</h4>
                     <p class="projectdetail">Detail ongoing...</p>
-                    <p>HTML</p>
-                    <P>CSS</P>
-                    <P>JAVASCRIPT</P>
+                    <div class="projecttag">
+                        <p class="tag p4tag">HTML</p>
+                        <P class="tag p4tag">CSS</P>
+                        <P class="tag p4tag">JAVASCRIPT</P>
+                    </div>
                 </div>
                 <div class="projectchild p4Link">
                     <a href="#"><img src="image/ongoingproject.png" alt="photo of ongoing project 4"></a>
                 </div>
             </div>
             <!--About me-->
-            <h2>About Me</h2>
-            <h3>Yujia Wang</h3>
-            <p>I am a mechanical engineer, a social media content creator and recently transited into a full stack developer. 
-                I am a natural fast-learner, always eager to explore new technologies and approaches to problem-solving. 
-                Also, I am a creative person, who can always think outside the box. 
-                I am always seeking new and innovative ways to approach challenges, and am skilled at identifying effective solutions 
-                that others might overlook. This unique perspective has enabled me to achieve great success as a full stack developer, 
-                where I am able to design and develop websites and systems that are both intuitive and functional.
-            </p>
-            <p>In my spare time, I keen to do the handcrafts, play the piano, play video games and take care my baby dog.</p>
-            <h3>Skills</h3>
-            <p>HTML, CSS, JAVASCRIPT, C#, MYSQL, ASP.NET MVC</p>
+            <div class="about">
+                <h2 class="hprojectcommon">About Me</h2>
+                    <div class="about_container">
+                        <div class="intro">
+                            <h3 class="aboutsubh">Yujia Wang</h3>
+                            <p>I am a mechanical engineer, a social media content creator and recently transited into a full stack developer. 
+                                I am a natural fast-learner, always eager to explore new technologies and approaches to problem-solving. 
+                                Also, I am a creative person, who can always think outside the box. 
+                                I am always seeking new and innovative ways to approach challenges, and am skilled at identifying effective solutions 
+                                that others might overlook. This unique perspective has enabled me to achieve great success as a full stack developer, 
+                                where I am able to design and develop websites and systems that are both intuitive and functional.
+                            </p>
+                            <p>In my spare time, I keen to do the handcrafts, play the piano, play video games and take care my baby dog.</p>
+                            <h3 class="aboutsubh">Skills</h3>
+                            <p>HTML, CSS, JAVASCRIPT, C#, MYSQL, ASP.NET MVC</p>
+                        </div>
+                        <div class="photo">
+                            <img src="image/IMG_1162.JPG" alt="photo of Yujia Wang" width="447">
+                        </div>
+                    </div>
+            </div>
 
             <!--Contact-->
-            <h2>Contact</h2>
-            <form action="#" method="post">
-                <div>
-                    <input type="text" name="name" id="name" placeholder="Name">
+            <div class="contact">
+                <h2 class="hprojectcommon">Contact</h2>
+                <form action="#" method="post" class="form">
+                    <div>
+                        <input type="text" name="name" id="name" class="formelement" placeholder="Name">
+                    </div>
+                    <div>
+                        <input type="email" name="email" id="email" class="formelement" placeholder="Email">
+                    </div>
+                    <div>
+                        <textarea id="message" name="message" class="formelement" placeholder="Message"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" class="formelement">Send</button>
+                    </div>
+                </form>
+                <div class="contactlogo">
+                    <a href="https://ca.linkedin.com/in/yujia-helen-wang-a1bb26144"><img src="image/linkedin.png" alt="linkedin logo" width="67"></a>
+                    <a href="https://github.com/YujiaWang6?tab=repositories"><img src="image/github.png" alt="github logo" width="67"></a>
+                    <a href="#"><img src="image/mail.png" alt="email logo" width="67"></a>
                 </div>
-                <div>
-                    <input type="email" name="email" id="email" placeholder="Email">
-                </div>
-                <div>
-                    <textarea id="message" name="message" placeholder="Message"></textarea>
-                </div>
-                <div>
-                    <button type="submit">Send</button>
-                </div>
-            </form>
-            <a href="https://ca.linkedin.com/in/yujia-helen-wang-a1bb26144"><img src="image/linkedin.png" alt="linkedin logo"></a>
-            <a href="https://github.com/YujiaWang6?tab=repositories"><img src="image/github.png" alt="github logo"></a>
-            <a href="#"><img src="image/mail.png" alt="email logo"></a>
+            </div>
         </main>
-        <footer>
-            <img src="image/circle.png" alt="scroll to top image">
-            <p>Scroll To Top</p>
-            <p>©Copyright Yujia Wang 2023</p>
+        <!--footer-->
+        <footer class="footer">
+            <div class="scroll">
+                <img src="image/circle.png" alt="scroll to top image" width="77">
+                <p>Scroll To Top</p>
+            </div>
+            <p id="copyright">©Copyright Yujia Wang 2023</p>
         </footer>
     </body>
 </html>

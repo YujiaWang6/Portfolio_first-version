@@ -86,9 +86,9 @@ h1 {
 
 /*--Project Common--*/
 .hproject {
-    padding: 0.75rem 1.56rem;
     background-color: #FFEBFA;
     font-size: 2rem;
+    padding: 0.75rem 1.56rem;
 }
 
 .projectcontainer {
@@ -101,10 +101,32 @@ h1 {
 .projectchild {
     flex-basis: 50%;
     height: 28.875rem;
+    position:relative;
 }
 
 .projectcontainer img {
     display: block;
+
+}
+
+/*--Project tag--*/
+.projecttag {
+    display: flex;
+    gap:2.1875rem;
+    position: absolute;
+    bottom: 2.3125rem;
+    right: 3.5rem;
+    
+
+}
+
+.tag {
+    padding: 5px;
+    font-family: 'Press Start 2P', cursive;
+    font-size:1.25rem;
+    color:#ffffff;
+    margin:0;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.25);
 
 }
 
@@ -137,23 +159,214 @@ h1 {
 
 .p1Link {
     background-color: #998D96;
+    order:-1;
 
 }
 
 .projectchild img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
 }
 
 .subtitle {
     margin:0;
-    font:600 1em 'Rajdhani', sans-serif;
-    padding: 0 0 0 3.5rem;
+    font:600 1.125em 'Rajdhani', sans-serif;
+    padding: 0 3.5rem 0.5625rem 3.5rem;
 }
 
 .projectdetail {
     margin:0;
-    padding: 0 0 0 3.5rem;
+    padding: 0 3.5rem 0 3.5rem;
+}
+
+/*--Project 1 Tag--*/
+.p1tag { 
+    background-color: #998D96;
+    border:3px solid #665E64;
+}
+
+/*--Project 2--*/
+.p2ConInfo {
+    background-color: #BCC8CC;
+}
+
+.p2Link{
+    background-color: #96A0A3;
+}
+
+.project2 a:hover{
+    color: #E7ECED;
+}
+
+
+/*--Project 2 Tag--*/
+.p2tag {
+    background-color: #96A0A3;
+    border:3px solid #70787A;
+}
+
+
+/*--Project 3--*/
+.p3ConInfo {
+    background-color: #C8CCBC;
+    order:1;
+}
+
+.p3Link {
+    background-color: #A0A396;
+    
+}
+
+.project3 a:hover {
+    color:#ECEDE7;
+}
+
+/*--Project 3 Tag--*/
+.p3tag {
+    background-color: #A0A396;
+    border:3px solid #808278;
+}
+
+
+/*--Project 4--*/
+.p4ConInfo {
+    background-color: #CCC0BC;
+    order:2;
+}
+
+.p4Link {
+    background-color: #A39996;
+    order:2;
+}
+
+.project4 a:hover {
+    color:#EDE9E7;
+}
+/*--Project 4 Tag--*/
+.p4tag {
+    background-color: #A39996;
+    border:3px solid #827A78;
+}
+
+
+/*--About Me--*/
+.about {
+    background-color: #C6C2D1;
+    height:37.3125rem;
+}
+
+.about_container {
+
+    display:flex;
+}
+
+
+.intro {
+    flex-basis:52%;
+    order:1;
+    padding: 0 3.5rem 0 0;
+
+}
+
+.intro p{
+    font-size: 1.25rem;
+}
+.photo {
+    flex-basis:48%;
+    position:relative;
+}
+
+.photo img {
+    position:absolute;
+    left:50%;
+    transform: translate(-50%);
+
+}
+
+.hprojectcommon{
+    font-size: 2rem;
+    padding: 1.625rem 0 1.625rem 1.56rem;
+}
+
+.aboutsubh {
+    margin:0;
+    font:600 1.875em 'Rajdhani', sans-serif;
+}
+
+/*--Contact--*/
+.contact {
+    background-color: #F7F7E2;
+    position:relative;
+    height:37.3125rem;
+}
+
+.formelement {
+    background-color:white;
+    color:#8E8E8E;
+    font-size: 1.5rem;
+    border: 3px solid #C5C5B4;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.25);
+    border-radius: 10px;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+button {
+    width: 10.875rem;
+    height:2.625rem;
+}
+
+input {
+    width:28.5rem;
+    height:3rem;
+
+}
+
+textarea {
+    width:28.5rem;
+    height:7.37rem;
+}
+
+.form { 
+   display:flex;
+   flex-direction:column;
+   gap:3.6rem;
+   align-items: center;
+   padding: 1em 0 0 0;
+}
+
+.contactlogo {
+    position:absolute;
+    display:flex;
+    flex-direction: column;
+    gap:5.625rem;
+    left:2.6875rem;
+    top:10rem;
+}
+
+/*--footer--*/
+.footer {
+    background-color: #FFEBFA;
+    height:12rem;
+    position:relative;
+}
+
+.scroll {
+    display:flex;
+    flex-direction: column;
+    gap:0.8125rem;
+    align-items: center;
+
+}
+.scroll p{
+    margin:0;
+}
+
+#copyright {
+    position:absolute;
+    left:1.875rem;
+    top:8.9375rem;
+   
 }
