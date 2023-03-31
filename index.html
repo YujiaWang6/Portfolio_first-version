@@ -11,11 +11,12 @@
         <header class="header">
             <h2 id="sitename"><a href="index.html">YW</a></h2>
             <nav>
+                <button class="menu-toggle" onclick="toggleMenu()">Menu</button>
                 <ul class="nav">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="#">Project</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#" id="projectbtn">Project</a></li>
+                    <li><a href="#" id="aboutbtn">About</a></li>
+                    <li><a href="#" id="contactbtn">Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -132,7 +133,7 @@
                         <textarea id="message" name="message" class="formelement" placeholder="Message"></textarea>
                     </div>
                     <div>
-                        <button type="submit" class="formelement">Send</button>
+                        <button type="submit" class="formelement formbtn">Send</button>
                     </div>
                 </form>
                 <div class="contactlogo">
@@ -145,10 +146,11 @@
         <!--footer-->
         <footer class="footer">
             <div class="scroll">
-                <img src="image/circle.png" alt="scroll to top image" width="77">
+                <img src="image/circle.png" alt="scroll to top image" width="77" id="scrolltotop">
                 <p>Scroll To Top</p>
             </div>
             <p id="copyright">©Copyright Yujia Wang 2023</p>
         </footer>
     </body>
+    <script src="js/script.js"></script>
 </html>

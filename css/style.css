@@ -19,6 +19,10 @@ img {
     height:auto;
 }
 
+.menu-toggle {
+    display: none;
+}
+
 /*--Header--*/
 .header {
     display: flex;
@@ -77,10 +81,10 @@ h1 {
     margin: 0;
     padding: 7.98rem;
     background-color: #FFEBFA;
-    background-image:url("/image/YW.png");
+    background-image:url("../image/YW.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: auto;
+    background-size: 75%;
 }
 
 
@@ -109,6 +113,18 @@ h1 {
 
 }
 
+.projectheading{
+    padding: 2.3125rem 0 2.25rem 3.5rem;
+    font-size:1.25em;
+
+}
+
+.projectheading a{
+    text-decoration: none;
+    color:black;
+}
+
+
 /*--Project tag--*/
 .projecttag {
     display: flex;
@@ -131,16 +147,6 @@ h1 {
 }
 
 /*--Project 1 --*/
-.projectheading{
-    padding: 2.3125rem 0 2.25rem 3.5rem;
-    font-size:1.25em;
-
-}
-
-.projectheading a{
-    text-decoration: none;
-    color:black;
-}
 
 .project1 {
     margin:0;
@@ -313,7 +319,7 @@ h1 {
     font-family: 'Rajdhani', sans-serif;
 }
 
-button {
+.formbtn {
     width: 10.875rem;
     height:2.625rem;
 }
@@ -370,3 +376,110 @@ textarea {
     top:8.9375rem;
    
 }
+
+.show-small{
+    display:block;
+    position:absolute;
+    left:0;
+    width:100%;
+}
+
+
+/*--Media Queries*/
+@media screen and (max-width:1100px){
+    .bannerContainer{
+        font-size: 3.5em;
+    }
+  
+    h1{
+        padding:4rem;
+    }
+
+    .photo img {
+        max-width:355px;
+        top:10%;
+    }
+
+    .tag {
+        font-size: 1rem;
+        padding:3px;
+    }
+
+
+}
+
+
+@media screen and (max-width:920px) {
+    .projectchild {
+        flex-basis:100%;
+    }
+
+    .p2ConInfo {
+        order:1;
+    }
+
+    .p3Link {
+        order:1;
+    }
+    .p3ConInfo {
+        order:2;
+    }
+    .p4ConInfo {
+        order:3;
+    }
+    .about {
+        height:auto;
+    }
+    .about_container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .photo img{
+        position:relative;
+        left:0;
+        transform: translate(0);
+    
+    }
+
+
+}
+
+@media screen and (max-width:768px) {
+    .menu-toggle {
+        height:2.3125rem;
+        width:5.75rem;
+        background-color: #CCBCC8;
+        font-family: 'Press Start 2P', cursive;
+        font-size: 1.25rem;
+        border:3px solid #7F757D;
+        box-shadow: 4px 4px 4px rgba(0,0,0,0.25);
+        display:block;
+    }
+    .menu-toggle:hover {
+
+        background-color: #7F757D;
+        color: #FFEBFA;
+    }
+    .nav {
+        flex-direction: column;
+        gap:1em;
+        padding:1em;
+        background-color: #aaa;
+        display:none;
+    }
+
+    .nav.show-small{
+        display:block;
+        position:absolute;
+        left:0;
+        width:95%;
+        
+      }
+
+
+
+    
+
+}
+
