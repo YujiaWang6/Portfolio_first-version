@@ -48,6 +48,7 @@ h2{
 
 .nav {
     display:flex;
+    flex-direction: row;
     list-style-type: none;
     font-size: 1.25em;
     gap: 1.68rem;
@@ -382,12 +383,7 @@ textarea {
    
 }
 
-.show-small{
-    display:block;
-    position:absolute;
-    left:0;
-    width:100%;
-}
+
 
 
 /*--Media Queries*/
@@ -409,6 +405,9 @@ textarea {
     .tag {
         font-size: 1rem;
         padding:3px;
+    }
+    .about {
+        height:auto;
     }
 
 
@@ -434,9 +433,7 @@ textarea {
     .p4ConInfo {
         order:3;
     }
-    .about {
-        height:auto;
-    }
+
     .about_container {
         flex-direction: column;
         align-items: center;
@@ -458,6 +455,13 @@ textarea {
 
 @media screen and (max-width:768px) {
     /*--Manu-toggle-*/
+    .show-small{
+        display:block;
+        position:absolute;
+        left:0;
+        width:100%;
+    }
+
     .menu-toggle {
         height:2.3125rem;
         width:5.75rem;
@@ -477,7 +481,7 @@ textarea {
         flex-direction: column;
         gap:1em;
         padding:1em;
-        background-color: #aaa;
+        background-color: rgb(206, 206, 206);
         display:none;
     }
 
@@ -485,7 +489,8 @@ textarea {
         display:block;
         position:absolute;
         left:0;
-        width:95%;
+        width:100%;
+        padding:0;
         
       }
 
