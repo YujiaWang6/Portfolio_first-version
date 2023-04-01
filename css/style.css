@@ -455,13 +455,6 @@ textarea {
 
 @media screen and (max-width:768px) {
     /*--Manu-toggle-*/
-    .show-small{
-        display:block;
-        position:absolute;
-        left:0;
-        width:100%;
-    }
-
     .menu-toggle {
         height:2.3125rem;
         width:5.75rem;
@@ -491,6 +484,7 @@ textarea {
         left:0;
         width:100%;
         padding:0;
+        gap:1em;
         
       }
 
