@@ -484,7 +484,6 @@ textarea {
         left:0;
         width:100%;
         padding:0;
-        gap:1em;
         
       }
 
@@ -616,9 +615,11 @@ textarea {
         background-image: none;
     }
 
-    .hproject{
+    .hproject, .hprojectcommon{
         font-size: 1em;
     }
+
+
 
     .tag {
         font-size: 0.625rem;
@@ -684,6 +685,9 @@ textarea {
 
     .copyright {
         left:1.5rem;
+    }
+    .nav{
+        font-size: 1em;
     }
 }
 
