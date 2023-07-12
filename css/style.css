@@ -467,6 +467,9 @@ textarea {
         text-decoration: none;
         color:black;
         text-align: center;
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
     }
     .menu-toggle:hover {
 
@@ -487,8 +490,13 @@ textarea {
         left:0;
         width:100%;
         padding:0;
+        flex-direction: column;
         
       }
+      .nav.show-small li{
+        margin: 10px 0;
+      }
+    
 
       /*Size change*/
     .bannerContainer{
