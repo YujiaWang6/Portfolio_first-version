@@ -464,6 +464,9 @@ textarea {
         border:3px solid #7F757D;
         box-shadow: 4px 4px 4px rgba(0,0,0,0.25);
         display:block;
+        text-decoration: none;
+        color:black;
+        text-align: center;
     }
     .menu-toggle:hover {
 
