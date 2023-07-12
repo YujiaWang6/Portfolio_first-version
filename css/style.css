@@ -494,7 +494,7 @@ textarea {
         
       }
       .nav.show-small li{
-        margin: 10px 0;
+        margin: 15px 10px;
       }
     
 
@@ -524,6 +524,12 @@ textarea {
         padding: 1.875rem 6.375rem;
     }
 
+    /*Contact me button*/
+    .formbtn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
 }
 
